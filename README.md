@@ -1,4 +1,4 @@
-# 🚀 Flask Gemini Voice Chatbot: Your Single-File AI Voice Assistant! 🤖🔊
+# 🚀 Flask Gemini Voice Chatbot: My Single-File AI Voice Assistant! 🤖🔊
 
 ## 📝 Summary
 This is a compact, single-file Flask application that powers a voice-enabled chatbot using Google Gemini AI. It serves a minimal HTML/JS frontend for real-time chatting with voice input/output via the Web Speech API. The backend handles API calls to Gemini for responses, with safe fallbacks: mock mode for testing without an API key, and robust error handling. Perfect for local development or quick deployments! Key features include environment-based configuration, dynamic model selection, and browser-based speech synthesis/recognition. Run it with `python app.py` and chat away—no extra files needed! 🌟
