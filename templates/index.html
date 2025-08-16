@@ -1,0 +1,32 @@
+<!-- templates/index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Flask Gemini Voice Chatbot</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1>🤖 Gemini Voice Chatbot</h1>
+      <p class="muted">Speak or type. Browser does speech recognition and TTS.</p>
+    </header>
+
+    <section id="chat" class="chat-window" aria-live="polite"></section>
+
+    <form id="controls" class="controls">
+      <input id="input" type="text" placeholder="Type a message..." autocomplete="off" />
+      <button id="micBtn" type="button" title="Use microphone">🎤</button>
+      <button id="sendBtn" type="submit">Send</button>
+    </form>
+
+    <footer class="footer">
+      <small>Uses browser Web Speech API for mic and voice output.</small>
+    </footer>
+  </main>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
