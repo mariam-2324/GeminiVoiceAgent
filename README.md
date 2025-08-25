@@ -430,10 +430,10 @@ I'll break this down section by section for clarity, highlighting key lines with
       app.run(host="0.0.0.0", port=5000, debug=DEBUG)
   ```
 
-## 🎥 Demo
-
 ![Chatbot Screenshot](audio-audio3.png)
 
-[▶️ Watch the demo video](dem01.mp4)
+## 🎥 Demo Video
+
+[▶️YouTube](https://youtu.be/1adeuyLsdHc)
 
 This app is a shining example of minimalism meets functionality—voice AI in one file! 🎉
